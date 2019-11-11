@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C22462D233218C40052B325 /* HJMultiVideoCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C22462C233218C40052B325 /* HJMultiVideoCamera.m */; };
+		1C84C976232E6C0B00C21F9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C84C975232E6C0B00C21F9F /* AppDelegate.m */; };
+		1C84C979232E6C0B00C21F9F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C84C978232E6C0B00C21F9F /* SceneDelegate.m */; };
+		1C84C97C232E6C0B00C21F9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C84C97B232E6C0B00C21F9F /* ViewController.m */; };
+		1C84C97F232E6C0B00C21F9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C84C97D232E6C0B00C21F9F /* Main.storyboard */; };
+		1C84C981232E6C0D00C21F9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C84C980232E6C0D00C21F9F /* Assets.xcassets */; };
+		1C84C984232E6C0D00C21F9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C84C982232E6C0D00C21F9F /* LaunchScreen.storyboard */; };
+		1C84C987232E6C0D00C21F9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C84C986232E6C0D00C21F9F /* main.m */; };
+		1C84C98F232E6D2900C21F9F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C84C98E232E6D2900C21F9F /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C22462B233218C40052B325 /* HJMultiVideoCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJMultiVideoCamera.h; sourceTree = "<group>"; };
+		1C22462C233218C40052B325 /* HJMultiVideoCamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJMultiVideoCamera.m; sourceTree = "<group>"; };
+		1C84C971232E6C0B00C21F9F /* MultCameraTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultCameraTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C84C974232E6C0B00C21F9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C84C975232E6C0B00C21F9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1C84C977232E6C0B00C21F9F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		1C84C978232E6C0B00C21F9F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		1C84C97A232E6C0B00C21F9F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1C84C97B232E6C0B00C21F9F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1C84C97E232E6C0B00C21F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C84C980232E6C0D00C21F9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C84C983232E6C0D00C21F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C84C985232E6C0D00C21F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C84C986232E6C0D00C21F9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C84C98E232E6D2900C21F9F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C84C96E232E6C0B00C21F9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C84C98F232E6D2900C21F9F /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C84C968232E6C0B00C21F9F = {
+			isa = PBXGroup;
+			children = (
+				1C84C973232E6C0B00C21F9F /* MultCameraTest */,
+				1C84C972232E6C0B00C21F9F /* Products */,
+				1C84C98D232E6D2900C21F9F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1C84C972232E6C0B00C21F9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C84C971232E6C0B00C21F9F /* MultCameraTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C84C973232E6C0B00C21F9F /* MultCameraTest */ = {
+			isa = PBXGroup;
+			children = (
+				1C84C974232E6C0B00C21F9F /* AppDelegate.h */,
+				1C84C975232E6C0B00C21F9F /* AppDelegate.m */,
+				1C84C977232E6C0B00C21F9F /* SceneDelegate.h */,
+				1C84C978232E6C0B00C21F9F /* SceneDelegate.m */,
+				1C84C97A232E6C0B00C21F9F /* ViewController.h */,
+				1C84C97B232E6C0B00C21F9F /* ViewController.m */,
+				1C22462B233218C40052B325 /* HJMultiVideoCamera.h */,
+				1C22462C233218C40052B325 /* HJMultiVideoCamera.m */,
+				1C84C97D232E6C0B00C21F9F /* Main.storyboard */,
+				1C84C980232E6C0D00C21F9F /* Assets.xcassets */,
+				1C84C982232E6C0D00C21F9F /* LaunchScreen.storyboard */,
+				1C84C985232E6C0D00C21F9F /* Info.plist */,
+				1C84C986232E6C0D00C21F9F /* main.m */,
+			);
+			path = MultCameraTest;
+			sourceTree = "<group>";
+		};
+		1C84C98D232E6D2900C21F9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C84C98E232E6D2900C21F9F /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C84C970232E6C0B00C21F9F /* MultCameraTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C84C98A232E6C0D00C21F9F /* Build configuration list for PBXNativeTarget "MultCameraTest" */;
+			buildPhases = (
+				1C84C96D232E6C0B00C21F9F /* Sources */,
+				1C84C96E232E6C0B00C21F9F /* Frameworks */,
+				1C84C96F232E6C0B00C21F9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultCameraTest;
+			productName = MultCameraTest;
+			productReference = 1C84C971232E6C0B00C21F9F /* MultCameraTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C84C969232E6C0B00C21F9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Tide;
+				TargetAttributes = {
+					1C84C970232E6C0B00C21F9F = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 1C84C96C232E6C0B00C21F9F /* Build configuration list for PBXProject "MultCameraTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C84C968232E6C0B00C21F9F;
+			productRefGroup = 1C84C972232E6C0B00C21F9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C84C970232E6C0B00C21F9F /* MultCameraTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C84C96F232E6C0B00C21F9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C84C984232E6C0D00C21F9F /* LaunchScreen.storyboard in Resources */,
+				1C84C981232E6C0D00C21F9F /* Assets.xcassets in Resources */,
+				1C84C97F232E6C0B00C21F9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C84C96D232E6C0B00C21F9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C84C97C232E6C0B00C21F9F /* ViewController.m in Sources */,
+				1C22462D233218C40052B325 /* HJMultiVideoCamera.m in Sources */,
+				1C84C976232E6C0B00C21F9F /* AppDelegate.m in Sources */,
+				1C84C987232E6C0D00C21F9F /* main.m in Sources */,
+				1C84C979232E6C0B00C21F9F /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C84C97D232E6C0B00C21F9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C84C97E232E6C0B00C21F9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C84C982232E6C0D00C21F9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C84C983232E6C0D00C21F9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C84C988232E6C0D00C21F9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1C84C989232E6C0D00C21F9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C84C98B232E6C0D00C21F9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48E3LB8PD7;
+				INFOPLIST_FILE = MultCameraTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.test.MultCameraTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C84C98C232E6C0D00C21F9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48E3LB8PD7;
+				INFOPLIST_FILE = MultCameraTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.test.MultCameraTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C84C96C232E6C0B00C21F9F /* Build configuration list for PBXProject "MultCameraTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C84C988232E6C0D00C21F9F /* Debug */,
+				1C84C989232E6C0D00C21F9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C84C98A232E6C0D00C21F9F /* Build configuration list for PBXNativeTarget "MultCameraTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C84C98B232E6C0D00C21F9F /* Debug */,
+				1C84C98C232E6C0D00C21F9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C84C969232E6C0B00C21F9F /* Project object */;
+}
